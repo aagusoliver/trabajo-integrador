@@ -689,7 +689,7 @@ footer {
     }
 
     .div-info {
-        width: 50%;
+        width: 70%;
         height: 55%;
         border-radius: 5px;
         padding: 5px;
@@ -768,5 +768,12 @@ footer {
 
     .section-paisajes {  
         height: 100%;
+    }
+
+    .div-info {
+        width: 70%;
+        height: 55%;
+        border-radius: 5px;
+        padding: 5px;
     }
 }
