@@ -1,6 +1,8 @@
 <html>
 <head>
     <link rel="stylesheet" href="login.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Limelight&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -8,32 +10,39 @@
     <title>Paisajes Argentina</title>
 </head>
 <body>
+    <header>
+        <nav class="nav">
+            <li>
+                <a href="index.html"> Inicio</a>
+            </li>
+        </nav>
+    </header>
     <main>
-        <div class="contenedor">
-            <div class="imagen">
-                <img class="img" src="./img/icon/login.svg" alt="login icono">
-            </div>
-            <div>
-                <h2>Login</h2>
-            </div>
-            <div>
-                <input type="text" placeholder="Email">
-            </div>
-            <div>
-                <input type="password" placeholder="Password">
-            </div>
-            <div class="boton1">
-                <button class="btn1"> ENTRAR </button>
-            </div>
-            <div class="boton1">
-                <button class="btn2"> Olvidé mi password</button>
-            </div>
-            <div class="boton1">
-                <button class="btn3"> 
-                    <a href="./">Registrarme</a>
-                </button>
-            </div>
-        </div>
+            <div class="contenedor">
+                <div class="imagen">
+                    <img class="img" src="./img/icon/login.svg" alt="login icono">
+                </div>
+                <div class="div-tit">
+                    <h2>Login</h2>
+                </div>
+                <div class="div-input">
+                    <input  type="text" placeholder="Email">
+                </div>
+                <div class="div-input">
+                    <input type="password" placeholder="Password">
+                </div>
+                <div class="boton1">
+                    <button class="btn1"> ENTRAR </button>
+                </div>
+                <div class="boton1">
+                    <button class="btn2"> Olvidé mi password</button>
+                </div>
+                <div class="boton1">
+                    <button class="btn3"> 
+                        <a href="./register.html">Registrarme</a>
+                    </button>
+                </div>
+            </div>      
     </main>
 </body>
 </html>
